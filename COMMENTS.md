@@ -27,5 +27,6 @@ Na quarta parte do routers no arquivo api/urls.py eu criei uma routa
 Com tudo terminado eu percebi que estava com um problema no Django.db, eu tenho ele instalado no sistema mas estã indetificando, eu passei o dinheiro procurando uma solução em grupos do facebook, discord, em sites de foruns como o stackoverflow e reddit e em alguns blogs. Como o prazo é até o dia 05/01 às 12:00 eu ainda estou procurando um solução.
 
 Coisas que eu queria fazer se tivesse mais tempo:
-  Tem um conhecido meu que desenvolveu uma API para consulta de CNPJ com o banco de dados da Policia Federal, se pudesse eu iria colocar essa API para consultar os 	dados ligado com a outra api do conhecido para mantê-los sempre atualizados (https://github.com/gabzin/cnpj.git)
+  Tem um conhecido meu que desenvolveu uma API para consulta de CNPJ com o banco de dados da Policia Federal, se pudesse eu iria colocar essa API para consultar      os 	dados ligado com a outra api do conhecido para mantê-los sempre atualizados (https://github.com/gabzin/cnpj.git)
   Organizava melhor o código e melhorava ele
+  
