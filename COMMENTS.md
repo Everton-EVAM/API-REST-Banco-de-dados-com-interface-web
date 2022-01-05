@@ -29,4 +29,5 @@ Com tudo terminado eu percebi que estava com um problema no Django.db, eu tenho 
 Coisas que eu queria fazer se tivesse mais tempo:
   Tem um conhecido meu que desenvolveu uma API para consulta de CNPJ com o banco de dados da Policia Federal, se pudesse eu iria colocar essa API para consultar os dados ligado com a outra api do conhecido (https://github.com/gabzin/cnpj.git)
   Organizava melhor o código e melhorava ele
+	
   
