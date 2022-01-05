@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'API.wsgi.application'
 
 DATABASES = {
     'default': {
-        "ENGINE": "django.db.backends.mysql",
-        'NAME': 'db_API',
-        'Host': '127.0.0.1',
+        "ENGINE": "django.db.backends.mysql", #Por oadrão o django usa o sqlite, eu mudei pro mysql
+        'NAME': 'db_API', #nome do banco de dados
+        'Host': '127.0.0.1', #IP do BD
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'bahia20354030',
+        'PASSWORD': '********',
         'OPTIONS': {
             'autocommit': True,
     }

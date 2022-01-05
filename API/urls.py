@@ -18,8 +18,11 @@ from django.urls import path, include
 from rest_framework import routers
 from apli.api import viewsets as apliviewsets
 
+#criando nosso objeto de rota
 route = routers.DefaultRouter()
 route.register(r'aplicação', apliviewsets.ApliViewset, basename= 'apli')
+
+#defindo os endereços url
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include(route.urls))

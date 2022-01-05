@@ -4,4 +4,4 @@ from apli.models import models
 class ApliSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.apli
-        fields = '__all__'
+        fields = '__all__' #importar todos os campos do model

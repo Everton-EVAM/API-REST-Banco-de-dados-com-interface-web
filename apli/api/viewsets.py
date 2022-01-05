@@ -4,4 +4,4 @@ from apli import models
 
 class ApliViewSet(viewsets.ModelViewSet):
     serializers_class = serializers.ApliSerializer
-    queryset = models.objects.all()
+    queryset = models.objects.all() #importar todos os campos do model
