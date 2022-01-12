@@ -1,4 +1,4 @@
-"""API URL Configuration
+"""aplicacao URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -16,14 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from apli.api import viewsets as apliviewsets
+from apli.api import viewsets as apliViewset
 
-#criando nosso objeto de rota
 route = routers.DefaultRouter()
-route.register(r'aplicação', apliviewsets.ApliViewset, basename= 'apli')
+route.register(r'aplica',apliViewset.ApliViewset,basename="banco de dados")
 
-#defindo os endereços url
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include(route.urls))
+    path('', include(route.urls))
 ]

@@ -2,6 +2,7 @@ from rest_framework import viewsets
 from apli.api import serializers
 from apli import models
 
-class ApliViewSet(viewsets.ModelViewSet):
-    serializers_class = serializers.ApliSerializer
-    queryset = models.objects.all() #importar todos os campos do model
+
+class ApliViewset(viewsets.ModelViewSet):
+    serializer_class = serializers.ApliSerializer
+    queryset = models.Empresas.objects.all()
